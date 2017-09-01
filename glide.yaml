@@ -1,0 +1,4 @@
+package: github.com/go-make/example-more
+import:
+- package: google.golang.org/grpc
+  version: ^1.6.0

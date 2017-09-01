@@ -1,0 +1,56 @@
+hash: 05971c2fe6933584ce5d5904112d532fb8fd4f6f0827d5c5bb65f27b26974828
+updated: 2017-09-01T00:17:57.143693923+01:00
+imports:
+- name: github.com/golang/protobuf
+  version: 83cd65fc365ace80eb6b6ecfc45203e43edfbc70
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: github.com/gravitational/version
+  version: 95d33ece5ce1a00844c874822496682f353f3003
+- name: github.com/urfave/cli
+  version: f017f86fccc5a039a98f23311f34fdf78b014f78
+- name: golang.org/x/net
+  version: 66aacef3dd8a676686c7ae3716979581e8b03c47
+  subpackages:
+  - context
+  - http2
+  - trace
+  - http2/hpack
+  - idna
+  - lex/httplex
+  - internal/timeseries
+- name: golang.org/x/text
+  version: e113a52b01bdd1744681b6ce70c2e3d26b58d389
+  subpackages:
+  - secure/bidirule
+  - unicode/norm
+  - transform
+  - unicode/bidi
+- name: google.golang.org/genproto
+  version: ee236bd376b077c7a89f260c026c4735b195e459
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: f92cdcd7dcdc69e81b2d7b338479a19a8723cfa3
+  subpackages:
+  - balancer
+  - codes
+  - connectivity
+  - credentials
+  - grpclb/grpc_lb_v1/messages
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []
